@@ -38,8 +38,8 @@ class App extends React.Component<any, any> {
   renderYesNoButtons() {
     return (
       <div>
-        <button onClick={this.handleYesClick}>Yes</button>
-        <button onClick={this.handleNoClick}>No</button>
+        <button onClick={this.handleYesClick}>Yes sir</button>
+        <button onClick={this.handleNoClick}>No sir</button>
       </div>
     );
   }
