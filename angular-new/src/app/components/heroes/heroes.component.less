@@ -1,0 +1,30 @@
+.heroes {
+  padding: 0;
+  margin: 0 auto;
+  width: 135px;
+  text-align: left;
+  list-style: none;
+  li {
+    margin: 10px 0;
+    background: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &.selected {
+      background-color: lightblue;
+      color: white;
+    }
+
+    > * {
+      display: inline-block;
+      padding: 5px;
+    }
+
+    .badge {
+      font-weight: bold;
+      background: gray;
+      border-radius: 5px 0px 0 5px;
+    }
+  }
+
+}
