@@ -37,12 +37,13 @@ export default class Example extends React.Component {
 
     render() {
         return (
-            <div>
-                <p>{this.state.width}</p>
+            <div className="container">
+                <p>This is the Class component</p>
                 <p>You clicked {this.state.count} times</p>
                 <button onClick={this.handleCountClick}>
                     Click me
                 </button>
+                <p>innerWidth: {this.state.width}</p>
             </div>
         );
     }

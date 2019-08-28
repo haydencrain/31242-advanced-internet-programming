@@ -37,6 +37,14 @@ code {
   color: #61dafb;
 }
 
+.container {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  padding: 20px;
+  margin: 20px 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

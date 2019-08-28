@@ -15,12 +15,13 @@ export default function Example(props) {
     }
 
     return (
-        <div>
-            <p>{width}</p>
+        <div className="container">
+            <p>This is the Hooks Example</p>
             <p>You clicked {count} times</p>
             <button onClick={handleCountClick}>
                 Click me
             </button>
+            <p>innerWidth: {width}</p>
         </div>
     );
 }

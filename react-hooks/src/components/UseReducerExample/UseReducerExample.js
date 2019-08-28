@@ -18,7 +18,8 @@ function reducer(state, action) {
 export default function UseReducerExample(props) {
     const [state, dispatch] = useReducer(reducer, initialState);
     return (
-        <div>
+        <div className="container">
+            <p>This is the useReducer example</p>
             <p>You clicked {state.count} times</p>
             <button onClick={() => dispatch({type: 'increment'})}>+</button>
             <button onClick={() => dispatch({type: 'decrement'})}>-</button>
